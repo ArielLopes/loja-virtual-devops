@@ -356,6 +356,11 @@
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
+	    <dependency>
+	    	<groupId>org.codehaus.mojo</groupId>
+		<artifactId>keytool-maven-plugin</artifactId>
+		<version>1.5</version>
+	     </dependency>
         </dependencies>
     </dependencyManagement>
     <modules>
